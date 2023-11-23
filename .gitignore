@@ -1,3 +1,5 @@
 Frames/
 Landmarks/Landmarks/
 Mascaras/Mask/
+*.h5
+__pycache__/
