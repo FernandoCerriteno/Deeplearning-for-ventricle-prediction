@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, Dropout, UpSampling2D, concatenate, BatchNormalization, Activation, ReLU, Conv2DTranspose
 
 # Definición de la arquitectura U-Net
-def unet_model(input_shape=(112, 112, 1), n_classes=1, activation='sigmoid'):
+def unet_model(input_shape=(112, 112, 1), n_classes=1, kernel_out=1,activation='sigmoid'):
     inputs = Input(shape=input_shape)
     
     # Codificación (downsampling)
@@ -30,7 +30,7 @@ def unet_model(input_shape=(112, 112, 1), n_classes=1, activation='sigmoid'):
     conv5 = Conv2D(64, 3, activation='relu', padding='same')(conv5)
     
     # Capa de salida
-    outputs = Conv2D(n_classes, 1, activation=activation)(conv5)  # Un solo canal de salida para la segmentación binaria
+    outputs = Conv2D(n_classes, kernel_out, activation=activation)(conv5)  # Un solo canal de salida para la segmentación binaria
     
     model = tf.keras.Model(inputs=inputs, outputs=outputs, name='U-Net_1')
     return model

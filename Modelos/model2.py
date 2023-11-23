@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, Dropout, UpSampling2D, concatenate, BatchNormalization, Activation, ReLU, Conv2DTranspose
 
 # Definición de la arquitectura U-Net
-def unet_model(input_shape=(112, 112, 1), n_classes=1, activation='sigmoid'):
+def unet_model(input_shape=(112, 112, 1), n_classes=1, kernel_out=1, activation='sigmoid'):
     inputs = Input(shape=input_shape)
 
     conv1 = Conv2D(64, 3, padding='same')(inputs)
@@ -82,7 +82,7 @@ def unet_model(input_shape=(112, 112, 1), n_classes=1, activation='sigmoid'):
     conv9 = BatchNormalization()(conv9)
     conv9 = ReLU()(conv9)
 
-    conv10 = Conv2D(n_classes, 1, activation=activation)(conv9)
+    conv10 = Conv2D(n_classes, kernel_out, activation=activation)(conv9)
 
     model = tf.keras.Model(inputs=inputs, outputs=conv10, name='U-Net_2')
     
