@@ -1,0 +1,5 @@
+Test loss: 5.168754577636719
+Test accuracy: 0.02927597612142563
+Model optimizer: Adam
+Model activation: softmax
+Model learning rate: 0.0010000000474974513
