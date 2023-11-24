@@ -1,0 +1,6 @@
+Test loss: 0.0011730642290785909
+Test accuracy_landmarks: 0.03920026123523712
+Model optimizer: Adam
+Model activation: linear
+Model learning rate: 0.0010000000474974513
+Model loss method: <function mean_squared_error_landmarks at 0x0000024273475B80>

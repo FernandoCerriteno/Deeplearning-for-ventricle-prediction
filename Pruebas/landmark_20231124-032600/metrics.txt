@@ -1,0 +1,6 @@
+Test loss: nan
+Test categorical_accuracy: 0.9236664175987244
+Model optimizer: Adam
+Model activation: linear
+Model learning rate: 0.0010000000474974513
+Model loss method: CategoricalCrossentropy
