@@ -1,0 +1,6 @@
+Test loss: 0.0012800298864021897
+Test accuracy: 0.04704640433192253
+Model optimizer: Adam
+Model activation: linear
+Model learning rate: 0.0010000000474974513
+Model loss method: mean_squared_error
