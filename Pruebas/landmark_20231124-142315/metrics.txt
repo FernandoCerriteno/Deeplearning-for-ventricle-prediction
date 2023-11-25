@@ -1,0 +1,6 @@
+Test loss: 0.04073752835392952
+Test accuracy_landmarks: 0.020277557894587517
+Model optimizer: Adam
+Model activation: softmax
+Model learning rate: 0.0010000000474974513
+Model loss method: categorical_crossentropy
