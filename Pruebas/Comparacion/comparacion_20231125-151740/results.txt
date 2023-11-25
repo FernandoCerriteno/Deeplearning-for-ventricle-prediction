@@ -1,0 +1,25 @@
+Image 0:
+Landmarks: 85.33236396983874% similarity, 0.004751069333820981 mean absolute error
+Masks: 94.98552542155% similarity, 0.24736518007132494 mean absolute error
+
+Image 1:
+Landmarks: 88.21534091998873% similarity, 0.003933721396534919 mean absolute error
+Masks: 96.04014250790294% similarity, 0.2345731809217398 mean absolute error
+
+Image 2:
+Landmarks: 90.98164009431495% similarity, 0.003528015423577914 mean absolute error
+Masks: 97.12556107142193% similarity, 0.16400003051226106 mean absolute error
+
+Image 3:
+Landmarks: 91.11922325601628% similarity, 0.003637528555954774 mean absolute error
+Masks: 95.76624584866413% similarity, 0.15057621701475593 mean absolute error
+
+Image 4:
+Landmarks: 85.86598667254528% similarity, 0.004474054322917994 mean absolute error
+Masks: 94.9429994789751% similarity, 0.24844147184671253 mean absolute error
+
+
+Mean SSI for Masks: 96.68587410688048
+Mean SSI for Landmarks: 93.48004072960795
+Mean absolute error for Masks: 0.015356812326354007
+Mean absolute error for Landmarks: 0.003696293826448465
