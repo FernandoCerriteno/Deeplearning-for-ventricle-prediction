@@ -1,0 +1,29 @@
+Modelo de landmarks: landmark_20231124-180554
+Modelo de máscaras: mascara_20231122-180148
+Fecha y hora: 20231125-153340
+-----------------------------------------------------------------
+Image 0:
+Landmarks: 88.21534684205206% similarity, 0.003933641206237286 mean absolute error
+Masks: 96.0397825262961% similarity, 0.2345736698059627 mean absolute error
+
+Image 1:
+Landmarks: 90.3141315758179% similarity, 0.004236198149006819 mean absolute error
+Masks: 96.71477239520681% similarity, 0.14431888798741155 mean absolute error
+
+Image 2:
+Landmarks: 90.97325534927452% similarity, 0.003758235936820392 mean absolute error
+Masks: 96.99078756242858% similarity, 0.16908943027373693 mean absolute error
+
+Image 3:
+Landmarks: 85.86763135716413% similarity, 0.004474134627801634 mean absolute error
+Masks: 94.94295963504283% similarity, 0.24844163445051104 mean absolute error
+
+Image 4:
+Landmarks: 88.7980990391492% similarity, 0.003726529288574374 mean absolute error
+Masks: 96.37943040356274% similarity, 0.22338435960505246 mean absolute error
+
+
+Mean SSI for Masks: 96.68586420981931
+Mean SSI for Landmarks: 93.48003854762923
+Mean absolute error for Masks: 0.015356869674240171
+Mean absolute error for Landmarks: 0.003696290756353187
