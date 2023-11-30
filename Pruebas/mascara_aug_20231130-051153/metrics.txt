@@ -1,0 +1,6 @@
+Test loss: 0.07320423424243927
+Test dice coefficient: 0.9268409013748169
+Test accuracy: 0.9566738605499268
+Model optimizer: Adam
+Model activation: sigmoid
+Model learning rate: 0.0010000000474974513

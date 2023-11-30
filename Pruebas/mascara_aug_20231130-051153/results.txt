@@ -1,0 +1,3 @@
+
+Mean SSI for Masks: 96.77232362002638
+Mean absolute error for Masks: 0.014733804987767003

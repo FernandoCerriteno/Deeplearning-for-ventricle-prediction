@@ -1,0 +1,3 @@
+Data augmentation: Flip Left Right
+Data augmentation: Rotations 20 degrees
+Data augmentation: Rotations -20 degrees
